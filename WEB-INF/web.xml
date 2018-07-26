@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-app_2_4.xsd"
+	version="2.4">
+
+	<servlet>
+		<servlet-name>Regist</servlet-name>
+		<servlet-class>servlet.RegistInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Regist</servlet-name>
+		<url-pattern>/jsp/RegistInfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Search</servlet-name>
+		<servlet-class>servlet.SearchInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Search</servlet-name>
+		<url-pattern>/jsp/SearchInfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GoLoginServlet</servlet-name>
+		<servlet-class>servlet.GoLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GoLoginServlet</servlet-name>
+		<url-pattern>/jsp/GoLoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GoNotLoginServlet</servlet-name>
+		<servlet-class>servlet.GoNotLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GoNotLoginServlet</servlet-name>
+		<url-pattern>/jsp/GoNotLoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/jsp/LoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GoUserRegistServlet</servlet-name>
+		<servlet-class>servlet.GoUserRegistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GoUserRegistServlet</servlet-name>
+		<url-pattern>/jsp/GoUserRegistServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserRegistServlet</servlet-name>
+		<servlet-class>servlet.UserRegistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserRegistServlet</servlet-name>
+		<url-pattern>/jsp/UserRegistServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ActorServlet</servlet-name>
+		<servlet-class>servlet.ActorServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ActorServlet</servlet-name>
+		<url-pattern>/jsp/ActorServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GoGameRegistServlet</servlet-name>
+		<servlet-class>servlet.GoGameRegistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GoGameRegistServlet</servlet-name>
+		<url-pattern>/jsp/GoGameRegistServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GoTourRegistServlet</servlet-name>
+		<servlet-class>servlet.GoTourRegistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GoTourRegistServlet</servlet-name>
+		<url-pattern>/jsp/GoTourRegistServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GoPlayerRegistServlet</servlet-name>
+		<servlet-class>servlet.GoPlayerRegistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GoPlayerRegistServlet</servlet-name>
+		<url-pattern>/jsp/GoPlayerRegistServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GameRegistServlet</servlet-name>
+		<servlet-class>servlet.GameRegistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GameRegistServlet</servlet-name>
+		<url-pattern>/jsp/GameRegistServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>TourRegistServlet</servlet-name>
+		<servlet-class>servlet.TourRegistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TourRegistServlet</servlet-name>
+		<url-pattern>/jsp/TourRegistServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>PlayerRegistServlet</servlet-name>
+		<servlet-class>servlet.PlayerRegistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PlayerRegistServlet</servlet-name>
+		<url-pattern>/jsp/PlayerRegistServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>WatchGameServlet</servlet-name>
+		<servlet-class>servlet.WatchGameServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WatchGameServlet</servlet-name>
+		<url-pattern>/jsp/WatchGameServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>GoTourSelectServlet</servlet-name>
+		<servlet-class>servlet.GoTourSelectServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GoTourSelectServlet</servlet-name>
+		<url-pattern>/jsp/GoTourSelectServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TourPartRegistServlet</servlet-name>
+		<servlet-class>servlet.TourPartRegistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TourPartRegistServlet</servlet-name>
+		<url-pattern>/jsp/TourPartRegistServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PlayerSelectServlet</servlet-name>
+		<servlet-class>servlet.PlayerSelectServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PlayerSelectServlet</servlet-name>
+		<url-pattern>/jsp/PlayerSelectServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+</web-app>
